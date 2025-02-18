@@ -1,3 +1,5 @@
+/!\ Requis uniquement pour l'utilisation d'un bot Socket /!\
+
 Les champs **cvld**, **cvle**, **cvlf**
 
 ```cs
