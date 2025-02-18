@@ -3,9 +3,9 @@
 Les champs **cvld**, **cvle**, **cvlf**
 
 ```cs
-  _cvld = new BigInteger(DHStandardGroups.rfc2409_768.P.ToByteArray());
-  _cvle = new BigInteger(DHStandardGroups.rfc2409_768.Q.ToByteArray());
-  _cvlf = new BigInteger(DHStandardGroups.rfc2409_768.G.ToByteArray());
+  var cvld = new BigInteger(DHStandardGroups.rfc2409_768.P.ToByteArray());
+  var cvle = new BigInteger(DHStandardGroups.rfc2409_768.Q.ToByteArray());
+  var cvlf = new BigInteger(DHStandardGroups.rfc2409_768.G.ToByteArray());
 ```
 
 1) Le serveur envois un **ServerVerificationEvent**
